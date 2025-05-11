@@ -1,0 +1,9 @@
+[package]
+name = "image-packer"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = { version = "4.5.38", features = ["derive"] }
+color-eyre = "0.6.4"
+image = "0.25.6"
